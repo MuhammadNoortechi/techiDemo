@@ -1,6 +1,6 @@
 import React from "react";
 import imgdetails from "../assets/imgdetails.png";
-import designimg from "../assets/designimg.png"
+
 import "../css/Details.scss";
 const Details = () => {
   return (
@@ -29,7 +29,7 @@ const Details = () => {
           </div>
           <div className="col-md-6  ">
             <div className="img-details d-flex justify-content-end">
-              <img src={designimg} alt="" className="w-100 " />
+              <img src={imgdetails} alt="" className="w-100 " />
             </div>
           </div>
         </div>
