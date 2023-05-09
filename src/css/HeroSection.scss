@@ -1,0 +1,43 @@
+.container-hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  color: white;
+
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+.hero-heading {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 70px;
+}
+
+.heading-span-tag {
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 190px) and (max-width: 517px) {
+  .hero-heading {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding-left: 1rem;
+  }
+  .hero-text {
+    color: white;
+
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding-left: 1rem;
+  }
+
+  .services-hero {
+    margin-left: 1rem;
+  }
+}

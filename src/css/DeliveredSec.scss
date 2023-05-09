@@ -1,0 +1,30 @@
+.section-del{
+  background: linear-gradient(177deg, rgb(0, 0, 0) 40%, rgb(10, 83, 83) 100%);
+  color: #fff;
+  padding-top: 120px ;
+  padding-bottom: 40px;
+}
+
+.section-del .container-del {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 180px;
+  text-align: center;
+}
+
+.section-del i {
+  color: lightskyblue;
+  margin-bottom: 5px;
+}
+
+/*  */
+
+@media (max-width: 768px) {
+  .section-del .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:40px;
+    
+  }
+
+
+}

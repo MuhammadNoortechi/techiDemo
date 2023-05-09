@@ -1,0 +1,28 @@
+.bg-div{
+    background: #000;
+}
+.container-div{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.heading-sec{
+    color: var(--primary-color);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.lettalk{
+    border: 2px solid var(--primary-color);
+    transition: 0.8s ease-in-out;
+     
+}
+.lettalk a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+   
+}
+.lettalk:hover{
+    background: var(--primary-color);
+  
+}

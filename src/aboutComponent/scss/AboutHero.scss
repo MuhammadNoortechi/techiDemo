@@ -1,0 +1,86 @@
+.container-hero-about {
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.bg-About-page {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(10, 83, 83, 0.6)
+    ),
+    url(https://www.michaelpage.com.au/sites/michaelpage.com.au/files/2021-07/professional%20business%20attire%20guide%20970.jpg);
+
+  // background: linear-gradient(400deg,rgba(0, 0, 0, 0.854),  rgba(10, 83, 83, 0.611) 100%), url("https://img.freepik.com/free-photo/business-people-shaking-hands-together_53876-30568.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn-get-in-touch {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: 0.2s ease-in-out;
+  padding: 10px 17px;
+  font-size: 15px;
+
+  margin-top: 18px;
+}
+.btn-get-in-touch:hover {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+}
+.about-hero {
+  width: 610px;
+}
+@media screen and (max-width: 768px) {
+  .btn-get-in-touch {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.2s ease-in-out;
+    padding: 7px 10px;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-top: 10px;
+  }
+  .wrapper {
+    margin-top: 10rem;
+    margin-left: 8px;
+  }
+  .about-hero {
+    width: 410px;
+    margin-left: 14px;
+  }
+}
+
+.mission {
+  background: #000;
+}
+
+////jias
+.flex-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-box {
+  width: 100px;
+  height: 100px;
+  background: green;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 10px;
+  margin: 20px;
+  flex-wrap: wrap;
+}

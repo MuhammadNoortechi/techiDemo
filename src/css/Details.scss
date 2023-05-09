@@ -1,0 +1,48 @@
+.row-details{
+  padding-top: 5rem;
+}
+.details-heading {
+  letter-spacing: 3px;
+}
+.h2-heading {
+  font-size: 22px;
+  padding-top: 15px;
+  color: var(--primary-color);
+}
+.h3 {
+  font-size: 16px;
+  color: white;
+  padding-top: 20px;
+  line-height: 1.5rem;
+}
+
+.btn-details {
+  background:transparent;
+  margin-top: 25px;
+  transition: 0.4s ease-in-out;
+  border: 2px solid var(--primary-color);
+}
+.btn-details:hover {
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .details-heading {
+    text-align: center;
+  }
+  .h2-heading {
+    text-align: center;
+  }
+  .btn-details {
+    display: flex;
+    justify-content: center;
+  }
+  .h3 {
+    text-align: center;
+  }
+  .img-details {
+    margin-top: 2rem;
+  }
+}

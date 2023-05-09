@@ -1,0 +1,31 @@
+.container-hero-service {
+    height: 70vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bg-service-page {
+    background: linear-gradient(200deg, rgba(0, 0, 0, 0.7), rgba(10, 83, 83, 0.7)),
+      url("https://media.istockphoto.com/id/951514270/photo/glad-to-work-with-you.jpg?s=170667a&w=0&k=20&c=8R_S00P4S9KT9lNSQuEp7U6bOz8hM9QBirOKn8L9Exk=");
+  
+    // background: linear-gradient(400deg,rgba(0, 0, 0, 0.854),  rgba(10, 83, 83, 0.611) 100%), url("https://img.freepik.com/free-photo/business-people-shaking-hands-together_53876-30568.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+  }
+  .hero-heading-service{
+      color: white;
+      font-weight: bold;
+      letter-spacing: 5px;
+  }
+  
+  @media screen and (max-width:768px){
+    .hero-heading-service{
+        text-align: center;
+        font-size: 40px;
+    }
+  }

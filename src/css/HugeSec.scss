@@ -1,0 +1,35 @@
+.bg-huge{
+    background: #000;
+}
+.startnow{
+    background: transparent;
+    border: 2px solid var(--primary-color);
+     transition: 0.4s ease-in-out;
+}
+.startnow a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.startnow:hover{
+   background: var(--primary-color);
+   
+}
+.text-huge{
+    width: 700px;
+}
+@media  screen and (max-width:768px) {
+    .heading-huge{
+        text-align: center;
+    }
+    .text-huge{
+        text-align: center;
+        width: 470px;
+    }
+    .startnow{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}

@@ -1,0 +1,35 @@
+
+.col-main {
+    flex: 1;  
+  }  
+  
+  .col-complementary {
+    flex: 1;  
+  }
+  
+  
+  @media only screen and (min-width: 640px) {
+    .layout {
+      display: flex;
+    }
+  }
+  
+
+  
+ 
+
+  
+  .col {
+    padding: 1em;
+    margin: 0 2px 2px 0;
+    
+  }
+  
+  .bg-history{
+    background: linear-gradient(200deg, rgb(0, 0, 0) 40%, rgb(10, 83, 83) 100%);
+
+  }
+  .bg-history{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
