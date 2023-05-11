@@ -2,10 +2,18 @@
     background: #000;
 }
 .img-career{
-    background-image: url("https://imageio.forbes.com/blogs-images/alejandrocremades/files/2018/07/desk-3139127_1920-1200x773.jpg?format=jpg&width=960");
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(https://www.rrc.ca/explore/wp-content/uploads/sites/1/sites/98/2022/09/Business-Interest.jpg);
     height: 35vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+
+}
+.loream{
+    color: var(--primary-color);
 }

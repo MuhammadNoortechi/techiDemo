@@ -17,63 +17,64 @@ const ContactHero = () => {
           </div>
         </div>
 
-        <div className="container">
-          <div className="row">
-            <div className="col-md-4">
-            <div className="h4  rounded p-5 card-border">
-                <div className="heading-card-contact text-center fw-bold text-white fs-2">FAQs</div>
-                <div className="para-card-contact text-center  text-white py-4" style={{fontSize:"20px"}}>
-                  For quick answers to common questions, try our FAQ first
-                </div>
-                <div className="d-flex justify-content-center py-4"  >
-                  <img
-                    src={lunch}
-                    alt=""
-                    className="" style={{width:"4rem"}}
-                  />
-                </div>
-                <div className="text-card-contact text-center text-white fw-bold fs-5">Help Center</div>
-              </div>
-            </div>
-            <div className="col-md-4">
-            <div className="h4  rounded p-5 card-border">
-                <div className="heading-card-contact text-center fw-bold text-white fs-2">FAQs</div>
-                <div className="para-card-contact text-center  text-white py-4" style={{fontSize:"20px"}}>
-                  For quick answers to common questions, try our FAQ first
-                </div>
-                <div className="d-flex justify-content-center py-4"  >
-                  <img
-                    src={lunch}
-                    alt=""
-                    className="" style={{width:"4rem"}}
-                  />
-                </div>
-                <div className="text-card-contact text-center text-white fw-bold fs-5">Help Center</div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="h4  rounded p-5 card-border">
-                <div className="heading-card-contact text-center fw-bold text-white fs-2">FAQs</div>
-                <div className="para-card-contact text-center  text-white py-4" style={{fontSize:"20px"}}>
-                  For quick answers to common questions, try our FAQ first
-                </div>
-                <div className="d-flex justify-content-center py-4"  >
-                  <img
-                    src={lunch}
-                    alt=""
-                    className="" style={{width:"4rem"}}
-                  />
-                </div>
-                <div className="text-card-contact text-center text-white fw-bold fs-5">Help Center</div>
-              </div>
-            </div>
-          </div>
-          <div className="email-contact-page text-center fs-4  pt-5 fw-bold">You can also email us <span className="span-email"> hr@techilab.com</span></div>
-        <div className="linked-in-contactpage text-center fs-5 pt-3 fw-bold">Follow us on linkedin <span className="span-linkedin"> Techilab Linkedin</span></div>
+      
+        <section className='section-about-card'>
+   <div className="container ">
+   
+     <div className="row  ">
+       <div className="column">
+         <div className="card ">
+           <h2 className='text-white fw-bold'>FAQs</h2>
+           <p className='pt-3 fw-bold'>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+           consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet
+           </p>
+           <div className="icon-wrapper">
+             <img src={lunch} alt="" style={{ width: "63px" }} />
+           </div>
+          
+           <div className='fs-4 text-white fw-bold pt-3'>Help center</div>
+           
+         </div>
+       </div>
+       <div className="column">
+       <div className="card ">
+           <h2 className='text-white fw-bold'>FAQs</h2>
+           <p className='pt-3 fw-bold'>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+           consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet
+           </p>
+           <div className="icon-wrapper">
+             <img src={lunch} alt="" style={{ width: "63px" }} />
+           </div>
+          
+           <div className='fs-4 text-white fw-bold pt-3'>Help center</div>
+           
+         </div>
+       </div>
+     
+       <div className="column">
+       <div className="card ">
+           <h2 className='text-white fw-bold'>FAQs</h2>
+           <p className='pt-3 fw-bold'>
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+           consectetur adipisicing elit. Lorem ipsum dolor, sit amet  sit amet
+           </p>
+           <div className="icon-wrapper">
+             <img src={lunch} alt="" style={{ width: "63px" }} />
+           </div>
+          
+           <div className='fs-4 text-white fw-bold pt-3'>Help center</div>
+           
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
         </div>
 
        
-      </div>
+ 
     </>
   );
 };

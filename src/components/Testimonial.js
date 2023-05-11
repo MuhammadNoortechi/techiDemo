@@ -30,14 +30,7 @@ const Testimonial = () => {
                                   <div className="content">
                                       <p><span><i className="fa fa-quote-left"></i></span>I wanted to thank you all and the team for the great work on RobotDrop.Fun.  It's a great site and works well now on Polygon.
                                        I have some work to do to finish the content site, robotdrop.nft, and upload/create the RobotDrop NFT collection for promoting the DEX, but overall, the functionality is working great and I am very impressed by the skills and commitment of this team!</p>
-                                      <p className="socials">
-                                    
-                                          <i className="fa fa-twitter"></i>
-                                          <i className="fa fa-behance"></i>
-                                          <i className="fa fa-pinterest"></i>
-                                          <i className="fa fa-dribbble"></i>
-                                          <i className="fa fa-vimeo"></i>
-                                      </p>
+                                     
                                   </div>
                               </div>
                           </div>
@@ -60,13 +53,7 @@ const Testimonial = () => {
                               <div className="col-md-6">
                                   <div className="content">
                                       <p><span><i className="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
-                                      <p className="socials">
-                                          <i className="fa fa-twitter"></i>
-                                          <i className="fa fa-behance"></i>
-                                          <i className="fa fa-pinterest"></i>
-                                          <i className="fa fa-dribbble"></i>
-                                          <i className="fa fa-vimeo"></i>
-                                      </p>
+                                    
                                   </div>
                               </div>
                           </div>
@@ -89,13 +76,7 @@ const Testimonial = () => {
                               <div className="col-md-6">
                                   <div className="content">
                                       <p><span><i className="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
-                                      <p className="socials">
-                                          <i className="fa fa-twitter"></i>
-                                          <i className="fa fa-behance"></i>
-                                          <i className="fa fa-pinterest"></i>
-                                          <i className="fa fa-dribbble"></i>
-                                          <i className="fa fa-vimeo"></i>
-                                      </p>
+                                    
                                   </div>
                               </div>
                           </div>

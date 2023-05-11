@@ -18,8 +18,8 @@ const HeroSection = () => {
               className="services-hero fw-bold "
               style={{ color: "#16A092" }}
             >
-              BlockChain | Artificial intilligence | Data Science | Ecommerce |
-              DevOps
+              Blockchain  |  Artificial intilligence  |  Data Science  |  Ecommerce  |
+               DevOps
             </div>
           </div>
         </div>

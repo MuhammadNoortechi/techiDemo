@@ -1,6 +1,5 @@
 import React from "react";
 import imgdetails from "../assets/imgdetails.png";
-
 import "../css/Details.scss";
 const Details = () => {
   return (

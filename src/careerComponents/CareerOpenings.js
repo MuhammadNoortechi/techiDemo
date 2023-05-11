@@ -1,5 +1,8 @@
 import React from 'react'
 import './scss/CareerOpenings.scss'
+import angular from "../assets/angular.png"
+import magento from "../assets/magento.png"
+import android from "../assets/android.png"
 const CareerOpenings = () => {
   return (
 <div className="bg-career-opening">
@@ -16,7 +19,7 @@ const CareerOpenings = () => {
         <li className="job-card new featured">
           <div className="job-card__info">
             <div className="d-md-flex align-items-center">
-              <div className="img-c"><img src="http://projects.lollypop.design/job-listing/photosnap.svg"/></div>
+              <div className="img-c"><img src={angular}/></div>
               <div>
                 <div className="d-flex align-items-center">
                   <p>Blockchain</p>
@@ -37,7 +40,7 @@ const CareerOpenings = () => {
         <li className="job-card new featured">
           <div className="job-card__info">
             <div className="d-md-flex align-items-center">
-              <div className="img-c"><img src="http://projects.lollypop.design/job-listing/photosnap.svg"/></div>
+              <div className="img-c"><img src={android}/></div>
               <div>
                 <div className="d-flex align-items-center">
                   <p>UI/UX</p>
@@ -58,7 +61,7 @@ const CareerOpenings = () => {
         <li className="job-card new featured">
           <div className="job-card__info">
             <div className="d-md-flex align-items-center">
-              <div className="img-c"><img src="http://projects.lollypop.design/job-listing/photosnap.svg"/></div>
+              <div className="img-c"><img src={magento}/></div>
               <div>
                 <div className="d-flex align-items-center">
                   <p>React Js Developer</p>
@@ -80,7 +83,7 @@ const CareerOpenings = () => {
         <li className="job-card new featured">
           <div className="job-card__info">
             <div className="d-md-flex align-items-center">
-              <div className="img-c"><img src="http://projects.lollypop.design/job-listing/photosnap.svg"/></div>
+              <div className="img-c"><img src={angular}/></div>
               <div>
                 <div className="d-flex align-items-center">
                   <p>Java Developer</p>
@@ -101,7 +104,7 @@ const CareerOpenings = () => {
         <li className="job-card new featured">
           <div className="job-card__info">
             <div className="d-md-flex align-items-center">
-              <div className="img-c"><img src="http://projects.lollypop.design/job-listing/photosnap.svg"/></div>
+              <div className="img-c"><img src={magento}/></div>
               <div>
                 <div className="d-flex align-items-center">
                   <p>Sales intern</p>

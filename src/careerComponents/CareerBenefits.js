@@ -14,8 +14,9 @@ const CareerBenefits = () => {
 
 
         {/* benefit cards */}
+        <div className="container">
         <div className="row gap-5 cards-benefits-career">
-            <div className="col-sm-2  card-bg-benefits py-4">
+            <div className="col-lg-2  card-bg-benefits py-4">
                <div className="benefit-card ">
                 <div className="div d-flex justify-content-center">
                     <img src={health} alt="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" className='w-25' />
@@ -25,7 +26,7 @@ const CareerBenefits = () => {
                
                </div>
             </div>
-            <div className="col-sm-2  card-bg-benefits py-4">
+            <div className="col-lg-2  card-bg-benefits py-4">
             <div className="benefit-card ">
                 <div className="div d-flex justify-content-center">
                     <img src={flexibility} alt="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" className='w-25' />
@@ -35,7 +36,7 @@ const CareerBenefits = () => {
                
                </div>
             </div>
-            <div className="col-sm-2  card-bg-benefits py-4">
+            <div className="col-lg-2  card-bg-benefits py-4">
             <div className="benefit-card ">
                 <div className="div d-flex justify-content-center">
                     <img src={lunch} alt="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" className='w-25' />
@@ -45,7 +46,7 @@ const CareerBenefits = () => {
                
                </div>
             </div>
-            <div className="col-sm-2  card-bg-benefits py-4">
+            <div className="col-lg-2  card-bg-benefits py-4">
             <div className="benefit-card ">
                 <div className="div d-flex justify-content-center">
                     <img src={emoji} alt="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" className='w-25' />
@@ -55,7 +56,7 @@ const CareerBenefits = () => {
                
                </div>
             </div>
-            <div className="col-sm-2  card-bg-benefits py-4">
+            <div className="col-lg-2  card-bg-benefits py-4">
             <div className="benefit-card ">
                 <div className="div d-flex justify-content-center">
                     <img src={riding} alt="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" className='w-25' />
@@ -67,8 +68,11 @@ const CareerBenefits = () => {
             </div>
          
         </div>
+        </div>
+
+  </div>
     </div>
-   </div>
+
   )
 }
 

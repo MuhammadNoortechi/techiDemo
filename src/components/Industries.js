@@ -10,7 +10,7 @@ const Industries = () => {
   return (
     <div className="bg-industries">
       <div className="container">
-        <div className="heading-industries fs-5 ">Industries we Serve</div>
+        <div className="heading-industries fs-5 ">Industries we serves</div>
         <h2 className="text-white">
           Managed IT Services customized for your industry
         </h2>
@@ -34,10 +34,10 @@ const Industries = () => {
               <div className="col-wd-6 col-md-4 col-sm-2">
                 <div className="col-indus">
                   <img
-                    src={eduction}
+                    src={hospital}
                     alt=""
-                    className=""
-                    style={{ width: "60px" }}
+                    className="w-50"
+                   
                   />
                   <h6 className="mt-3"> Education</h6>
                 </div>
