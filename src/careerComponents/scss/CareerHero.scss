@@ -25,11 +25,16 @@
   }
   .career-heading-para{
     color: var(--primary-color);
+    width: 40rem;
   }
   
   @media screen and (max-width:768px){
     .hero-heading-career-page{
        
-        font-size: 45px;
+        font-size: 35px;
+    }
+    .career-heading-para{
+      font-size: 14px;
+     width: 20rem;
     }
   }

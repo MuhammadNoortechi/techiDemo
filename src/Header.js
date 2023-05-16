@@ -9,7 +9,7 @@ function Header() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [color,setColor]=useState(false)
-
+ 
   const [size, setSize] = useState({
     width: 0,
     height: 0,
@@ -43,25 +43,26 @@ window.addEventListener("scroll",changeColor)
   }, [size.width, menuOpen]);
 
   const menuToggleHandler = () => {
-    setMenuOpen((p) => !p);
+    setMenuOpen((menuOpen) => !menuOpen);
   };
 
   return (
     <header className={color ? "header fixed-top navbar-scrolled " :"header fixed-top "}>
-      <div className="container pt-1">
+      <div className="container pt-1" >
       <div className="header__content" >
         <Link to="/" className="header__content__logo">
         <img src={techilab} alt="" style={{width:"6rem"}} className="logo" />
         </Link>
+        
         <nav 
           className={`${"header__content__nav"} 
           ${menuOpen && size.width < 768 ? `${"isMenu" } `  : ""} 
           }`}
         >
-          <ul  >
+          <ul className="" onClick={()=>setMenuOpen(false)}>
             <li 
 >
-              <Link to="/" className={color ? "navbar-a text-uppercase  navbar-a-scrolled  " :"navbar-a text-uppercase "} >Home</Link>
+              <Link to="/"  className={color ? "navbar-a text-uppercase  navbar-a-scrolled  " :"navbar-a text-uppercase "} >Home</Link>
             </li>
             <li >
               <Link to="/about" className={color ? "navbar-a  text-uppercase navbar-a-scrolled " :"navbar-a text-uppercase "} >About</Link>
@@ -70,11 +71,11 @@ window.addEventListener("scroll",changeColor)
               <Link to="/service" className={color ? "navbar-a  text-uppercase navbar-a-scrolled " :"navbar-a text-uppercase "} >Services</Link>
             </li >
             <li >
-              <Link to="/career" className={color ? "navbar-a  text-uppercase navbar-a-scrolled " :"navbar-a text-uppercase "} > Career</Link>
+              <Link to="/career"  className={color ? "navbar-a  text-uppercase navbar-a-scrolled " :"navbar-a text-uppercase "} > Career</Link>
             </li>
 
        
-            <Link to="/contact">
+            <Link to="/contact" >
               {/* <button className="btn btn__login text-uppercase btn-header-letstalk">Let's Talk</button> */}
               <button className={color ? "btn-header-letstalk scrolled-header-btn" : "btn-header-letstalk"}>Let's Talk</button>
             </Link>

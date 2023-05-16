@@ -25,7 +25,8 @@
     letter-spacing: 3px;
 }
 .para-contact-page{
-    width: 35rem;
+ font-size: 20px;
+ width: 40rem;
 }
 .email-contact-page{
     color: white;
@@ -45,5 +46,9 @@
         width: 25rem;
         transition: 0.5s ease-in-out;
     }
+    .para-contact-page{
+        font-size: 15px;
+        width: 19rem;
+       }
 }
 

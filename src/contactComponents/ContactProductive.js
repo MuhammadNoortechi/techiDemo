@@ -26,7 +26,7 @@ const ContactProductive = () => {
    
    </div>
    <div className='kkkk'>
-   <section class='hero-header'>
+   <section className='hero-header'>
     
    </section>
 </div>
